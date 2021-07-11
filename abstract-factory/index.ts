@@ -5,7 +5,6 @@ interface CarProps {
 abstract class Car implements CarProps {
   abstract ride(): void
 }
-
 class ElectricCar extends Car {
   constructor() {
     super()
@@ -43,7 +42,7 @@ class DieselMotorcycle extends Motorcycle {
 
 abstract class VehicleFactory {
   abstract createCar(): Car
-  abstract createMotorcycle(): Car
+  abstract createMotorcycle(): Motorcycle
 }
 
 class ElectricFactory extends VehicleFactory {
