@@ -75,3 +75,5 @@ electricFactory.createMotorcycle()
 const dieselFactory = new DieselFactory()
 dieselFactory.createCar()
 dieselFactory.createMotorcycle()
+
+export {}

@@ -80,3 +80,5 @@ const builder = new CarBuilder()
 director.setBuilder(builder)
 director.constructCar()
 director.constructManual()
+
+export {}
